@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_custom_list.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_custom_list_sqlite.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_list.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.26412048339843747" />
+        <entry key="app/src/main/res/layout/activity_pop_up_window.xml" value="0.15137614678899083" />
+        <entry key="app/src/main/res/layout/activity_student_details_view.xml" value="0.17175445556640626" />
+        <entry key="app/src/main/res/layout/activity_student_details_view_sqlite.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_student_edit_sqlite.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_student_insertion.xml" value="0.26766204833984375" />
+        <entry key="app/src/main/res/layout/activity_student_insertion_to_sql.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_student_interaction.xml" value="0.26824951171875006" />
+        <entry key="app/src/main/res/layout/custom_row_view.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.23261566162109365" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SE328Project</string>
+
+    <style name="AppTheme.popMe" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".StudentDetailsView">
+
+    <TextView
+        android:id="@+id/titleSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Student Records | SQLite Database"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student ID: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentIDViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Name: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentNameViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Father Name: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentFatherNameViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Surname: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentSurnameViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student NID: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentNIDViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student DOB: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentDOBViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Gender: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/studentGenderViewSQLite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090808"
+    android:backgroundTint="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Project SE328"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameandid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Abdulrahman Alrayes - 200194"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/insertStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="Insert Student | Firebase Database"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/editStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="Edit Student | Firebase Database"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/viewStudentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="View Students List | Firebase Database"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/editStudentSQLi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="Edit Student | SQLite Database"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/viewStudentListSQLi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#03A9F4"
+            android:text="View Students List | SQLite Database"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</LinearLayout>

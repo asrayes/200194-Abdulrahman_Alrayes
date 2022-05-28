@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.se328project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="200194 - Abdulrahman Alrayes"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity
+            android:name=".StudentDetailsViewSQLite"
+            android:exported="false" />
+        <activity
+            android:name=".CustomListSQLiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentEditSQLite"
+            android:exported="false" />
+        <activity
+            android:name=".StudentInsertion"
+            android:exported="false" />
+        <activity
+            android:name=".PopUpWindow"
+            android:exported="false"
+            android:theme="@style/AppTheme.popMe" />
+        <activity
+            android:name=".CustomListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDetailsView"
+            android:exported="false" />
+        <activity
+            android:name=".StudentInteraction"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

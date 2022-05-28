@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".StudentInsertion">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student | Firebase Database"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student ID: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/idInsertion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="6"
+                android:inputType="number"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Name: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/nameInsertion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="9"
+                android:inputType="textPersonName"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Father Name: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/fatherInsertion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="9"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Surname: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/surnameInsertion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="9"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student NID: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/nidInsertion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="9"
+                android:inputType="number"
+                android:textColor="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Date of Birth: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/dobInsertion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="9"
+                android:inputType="date"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Student Gender: "
+                android:textAlignment="textStart"
+                android:textColor="#03A9F4"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/genderInsertion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:entries="@array/gender" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#4CAF50"
+            android:text="Insert"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
